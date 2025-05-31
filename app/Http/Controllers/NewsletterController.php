@@ -17,10 +17,8 @@ class NewsletterController extends Controller
         $subscriber = NewsletterSubscriber::create($validated);
 
         // Email to admin
-        $adminEmail = env('ADMIN_EMAIL');
-
-        Mail::send('emails.newsletter_admin', ['email' => $subscriber->email], function ($message) use ($adminEmail) {
-            $message->to($adminEmail)->subject('New Newsletter Subscriber');
+        Mail::send('emails.newsletter_admin', ['email' => $subscriber->email], function ($message) {
+            $message->to('limokip07@gmail.com')->subject('New Newsletter Subscriber');
         });
 
         // Email to subscriber

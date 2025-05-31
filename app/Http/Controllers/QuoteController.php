@@ -38,10 +38,8 @@ class QuoteController extends Controller
         $quote->save();
 
         // Send email to admin
-        $adminEmail = env('ADMIN_EMAIL');
-
-        Mail::send('emails.quote_admin', ['quote' => $quote], function ($message) use ($quote, $adminEmail) {
-            $message->to($adminEmail)
+        Mail::send('emails.quote_admin', ['quote' => $quote], function ($message) use ($quote) {
+            $message->to('limokip07@gmail.com')
                 ->subject('New Quote Request from ' . $quote->company_name);
         });
 

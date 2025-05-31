@@ -22,13 +22,10 @@ class ContactController extends Controller
         $contactMessage = ContactMessage::create($validated);
 
         // Send email to admin
-        $adminEmail = env('ADMIN_EMAIL');
-
-        Mail::send('emails.contact_admin', ['data' => $contactMessage], function ($message) use ($contactMessage, $adminEmail) {
-            $message->to($adminEmail)
+        Mail::send('emails.contact_admin', ['data' => $contactMessage], function ($message) use ($contactMessage) {
+            $message->to('limokip07@gmail.com')
                 ->subject('New Contact Message Received');
         });
-
 
         return response()->json(['success' => 'Thanks for getting in touch! We will respond shortly.']);
     }
