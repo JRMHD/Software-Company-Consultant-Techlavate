@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\QuoteRequest;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\QuoteAdminMail;
+use App\Mail\QuoteUserMail;
+
+
 
 class QuoteController extends Controller
 {
@@ -38,16 +42,10 @@ class QuoteController extends Controller
         $quote->save();
 
         // Send email to admin
-        Mail::send('emails.quote_admin', ['quote' => $quote], function ($message) use ($quote) {
-            $message->to('limokip07@gmail.com')
-                ->subject('New Quote Request from ' . $quote->company_name);
-        });
+        Mail::to('limokip07@gmail.com')->send(new QuoteAdminMail($quote));
 
         // Send confirmation email to user
-        Mail::send('emails.quote_user', ['quote' => $quote], function ($message) use ($quote) {
-            $message->to($quote->email)
-                ->subject('We Received Your Quote Request');
-        });
+        Mail::to($quote->email)->send(new QuoteUserMail($quote));
 
         return response()->json(['success' => 'Quote request submitted successfully.']);
     }

@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\NewsletterSubscriber;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\NewsletterAdminNotification;
+use App\Mail\NewsletterWelcomeMail;
+
+
 
 class NewsletterController extends Controller
 {
@@ -16,15 +20,11 @@ class NewsletterController extends Controller
 
         $subscriber = NewsletterSubscriber::create($validated);
 
-        // Email to admin
-        Mail::send('emails.newsletter_admin', ['email' => $subscriber->email], function ($message) {
-            $message->to('limokip07@gmail.com')->subject('New Newsletter Subscriber');
-        });
+        // Send email to admin
+        Mail::to('limokip07@gmail.com')->send(new NewsletterAdminNotification($subscriber->email));
 
-        // Email to subscriber
-        Mail::send('emails.newsletter_welcome', ['email' => $subscriber->email], function ($message) use ($subscriber) {
-            $message->to($subscriber->email)->subject('Thanks for subscribing to our newsletter!');
-        });
+        // Send email to subscriber
+        Mail::to($subscriber->email)->send(new NewsletterWelcomeMail($subscriber->email));
 
         return response()->json(['success' => 'Thanks for subscribing!']);
     }

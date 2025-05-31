@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\ContactMessage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactAdminMail;
 
 class ContactController extends Controller
 {
@@ -22,10 +23,7 @@ class ContactController extends Controller
         $contactMessage = ContactMessage::create($validated);
 
         // Send email to admin
-        Mail::send('emails.contact_admin', ['data' => $contactMessage], function ($message) use ($contactMessage) {
-            $message->to('limokip07@gmail.com')
-                ->subject('New Contact Message Received');
-        });
+        Mail::to('limokip07@gmail.com')->send(new ContactAdminMail($contactMessage));
 
         return response()->json(['success' => 'Thanks for getting in touch! We will respond shortly.']);
     }
