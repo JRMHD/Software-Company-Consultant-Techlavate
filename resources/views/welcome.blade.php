@@ -93,7 +93,7 @@
                             Central, and Power BI solutions.
                         </p>
                         <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
-                            <a href="/contact" class="header-btn1">Get Started <span><i
+                            <a href="/contact" class="header-btn1">Book a Free Demo <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                             <a href="/about" class="header-btn2">Learn More <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
@@ -189,67 +189,78 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="service-all-boxes-area">
+                    <div class="service-all-boxes-area"
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
 
                         <!-- Dynamics 365 CE -->
-                        <div class="service-boxarea" data-aos="zoom-in" data-aos-duration="800">
-                            <a href="/services">Dynamics 365 Customer Engagement</a>
+                        <div class="service-boxarea" data-aos="zoom-in" data-aos-duration="800"
+                            style="background: #4E2FDA; color: white;">
+                            <a href="/services" style="color: white; text-decoration: none;">Dynamics 365 Customer
+                                Engagement</a>
                             <div class="space40"></div>
                             <div class="icon-area">
-                                <svg width="48" height="48" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" viewBox="0 0 24 24">
+                                <svg width="48" height="48" fill="none" stroke="white" stroke-width="1.5"
+                                    viewBox="0 0 24 24">
                                     <path
                                         d="M5 3h14a2 2 0 0 1 2 2v4H3V5a2 2 0 0 1 2-2Zm0 6h14v2H5V9Zm0 4h9v2H5v-2Zm0 4h9v2H5v-2Zm13-3 3 3-3 3">
                                     </path>
                                 </svg>
                             </div>
                             <div class="space40"></div>
-                            <p>Drive sales, service, and marketing performance with tailored D365 CE implementations,
+                            <p style="color: white;">Drive sales, service, and marketing performance with tailored D365
+                                CE implementations,
                                 automation, and integrations.</p>
                         </div>
 
                         <!-- Power Platform -->
-                        <div class="service-boxarea box2" data-aos="zoom-in" data-aos-duration="1000">
-                            <a href="/services">Microsoft Power Platform</a>
+                        <div class="service-boxarea box2" data-aos="zoom-in" data-aos-duration="1000"
+                            style="background: #4E2FDA; color: white;">
+                            <a href="/services" style="color: white; text-decoration: none;">Microsoft Power
+                                Platform</a>
                             <div class="space40"></div>
                             <div class="icon-area">
-                                <svg width="48" height="48" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" viewBox="0 0 24 24">
+                                <svg width="48" height="48" fill="none" stroke="white" stroke-width="1.5"
+                                    viewBox="0 0 24 24">
                                     <path d="M3 12h3m3 0h12M3 6h18M3 18h18"></path>
                                 </svg>
                             </div>
                             <div class="space40"></div>
-                            <p>Leverage Power Apps, Automate, and Virtual Agents to build low-code apps, automate
+                            <p style="color: white;">Leverage Power Apps, Automate, and Virtual Agents to build
+                                low-code apps, automate
                                 workflows, and engage customers intelligently.</p>
                         </div>
 
                         <!-- Business Central ERP -->
-                        <div class="service-boxarea box3" data-aos="zoom-in" data-aos-duration="1200">
-                            <a href="/services">Business Central ERP</a>
+                        <div class="service-boxarea box3" data-aos="zoom-in" data-aos-duration="1200"
+                            style="background: #4E2FDA; color: white;">
+                            <a href="/services" style="color: white; text-decoration: none;">Business Central ERP</a>
                             <div class="space66"></div>
                             <div class="icon-area">
-                                <svg width="48" height="48" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" viewBox="0 0 24 24">
+                                <svg width="48" height="48" fill="none" stroke="white" stroke-width="1.5"
+                                    viewBox="0 0 24 24">
                                     <path d="M3 3h18v18H3V3Zm3 4h12v2H6V7Zm0 4h12v2H6v-2Zm0 4h8v2H6v-2Z"></path>
                                 </svg>
                             </div>
                             <div class="space40"></div>
-                            <p>Modernize your finance, inventory, and operations with end-to-end ERP solutions,
+                            <p style="color: white;">Modernize your finance, inventory, and operations with end-to-end
+                                ERP solutions,
                                 including migrations from QuickBooks.</p>
                         </div>
 
                         <!-- Power BI -->
-                        <div class="service-boxarea box4" data-aos="zoom-in" data-aos-duration="1400">
-                            <a href="/services">Power BI & Analytics</a>
+                        <div class="service-boxarea box4" data-aos="zoom-in" data-aos-duration="1400"
+                            style="background: #4E2FDA; color: white;">
+                            <a href="/services" style="color: white; text-decoration: none;">Power BI & Analytics</a>
                             <div class="space40"></div>
                             <div class="icon-area">
-                                <svg width="48" height="48" fill="none" stroke="currentColor"
-                                    stroke-width="1.5" viewBox="0 0 24 24">
+                                <svg width="48" height="48" fill="none" stroke="white" stroke-width="1.5"
+                                    viewBox="0 0 24 24">
                                     <path d="M4 17v-5M9 17V7m5 10v-3m5 3V4"></path>
                                 </svg>
                             </div>
                             <div class="space40"></div>
-                            <p>Transform data into actionable insights with Power BI dashboards, KPI reporting, and
+                            <p style="color: white;">Transform data into actionable insights with Power BI dashboards,
+                                KPI reporting, and
                                 seamless integration with your systems.</p>
                         </div>
 
@@ -295,12 +306,12 @@
                                 methodology, and a client-centric focus to every engagement—from design to deployment
                                 and beyond.</p>
                             <div class="btn-area" data-aos="fade-up" data-aos-duration="1200">
-                                <a href="/services" class="header-btn1">Learn More <span><i
+                                <a href="/services" class="header-btn1">Book a Free Demo <span><i
                                             class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
                         <div class="arrow-area">
-                            <a href="/services"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="/contact"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -323,15 +334,19 @@
                             </div>
 
                             <div class="col-lg-12 col-md-6">
-                                <div class="service2-auhtor2-boxarea" data-aos="zoom-out" data-aos-duration="1200">
+                                <div class="service2-auhtor2-boxarea" data-aos="zoom-out" data-aos-duration="1200"
+                                    style="background: #4E2FDA; color: white;">
                                     <div class="arrow">
-                                        <a href="/services"><i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="/services" style="color: white;"><i
+                                                class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     <div class="content-area">
-                                        <h5>Our Vision</h5>
-                                        <a href="/services">To Be the Most Trusted Microsoft Solutions Partner</a>
-                                        <p>We envision a future where businesses of all sizes can fully harness the
-                                            power of digital transformation through smart, connected systems.</p>
+                                        <h5 style="color: white;">Our Vision</h5>
+                                        <a href="/services" style="color: white; text-decoration: none;">To Be the
+                                            Most Trusted Microsoft Solutions Partner</a>
+                                        <p style="color: white;">We envision a future where businesses of all sizes can
+                                            fully harness the power of digital transformation through smart, connected
+                                            systems.</p>
                                     </div>
                                 </div>
                             </div>

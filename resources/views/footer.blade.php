@@ -4,15 +4,15 @@
             <!-- Logo and Description -->
             <div class="col-lg-3 col-md-6">
                 <div class="footer-logo-area">
-                    <img src="assets/img/logo/logo1.png" alt="Techlavate Solutions Logo"
+                    <img src="/assets/img/logo/logo1.png" alt="Techlavate Solutions Logo"
                         style="width: 120px; height: auto;">
                     <p>Techlavate Solutions empowers businesses with modern Microsoft Dynamics 365, Power Platform, and
                         ERP solutions that drive efficiency, innovation, and growth.</p>
                     <ul>
-                        <li><a href="#"><img src="assets/img/icons/facebook.svg" alt="Facebook"></a></li>
-                        <li><a href="#"><img src="assets/img/icons/instagram.svg" alt="Instagram"></a></li>
-                        <li><a href="#"><img src="assets/img/icons/linkedin.svg" alt="LinkedIn"></a></li>
-                        <li><a href="#"><img src="assets/img/icons/youtube.svg" alt="YouTube"></a></li>
+                        <li><a href="#"><img src="/assets/img/icons/facebook.svg" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="/assets/img/icons/instagram.svg" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="/assets/img/icons/linkedin.svg" alt="LinkedIn"></a></li>
+                        <li><a href="#"><img src="/assets/img/icons/youtube.svg" alt="YouTube"></a></li>
                     </ul>
                 </div>
             </div>

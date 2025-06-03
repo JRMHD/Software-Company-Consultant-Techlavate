@@ -7,22 +7,22 @@
     <title>Page Not Found (404) | Microsoft Dynamics & ERP Experts - Techlavate</title>
 
     <!--=====FAB ICON=======-->
-    <link rel="shortcut icon" href="assets/img/logo/fav-logo1.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/img/logo/fav-logo1.png" type="image/x-icon" />
 
     <!--===== CSS LINK =======-->
-    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/aos.css" />
-    <link rel="stylesheet" href="assets/css/plugins/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css" />
-    <link rel="stylesheet" href="assets/css/plugins/mobile.css" />
-    <link rel="stylesheet" href="assets/css/plugins/owlcarousel.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/sidebar.css" />
-    <link rel="stylesheet" href="assets/css/plugins/slick-slider.css" />
-    <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/fontawesome.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/mobile.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/owlcarousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/sidebar.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/slick-slider.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
 
     <!--=====  JS SCRIPT LINK =======-->
-    <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
+    <script src="/assets/js/plugins/jquery-3-6-0.min.js"></script>
 
     <script>
         // Countdown and redirect script
@@ -60,8 +60,8 @@
     <!--===== HERO AREA STARTS =======-->
     <div class="about-header-area"
         style="background-image: url(assets/img/bg/inner-header.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
-        <img src="assets/img/elements/elements1.png" alt="" class="elements1 aniamtion-key-1" />
-        <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5" />
+        <img src="/assets/img/elements/elements1.png" alt="" class="elements1 aniamtion-key-1" />
+        <img src="/assets/img/elements/star2.png" alt="" class="star2 keyframe5" />
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 m-auto">
@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="col-lg-6 m-auto">
                     <div class="heading2 text-center">
-                        <img src="assets/img/all-images/error-img1.png" alt="" />
+                        <img src="/assets/img/all-images/error-img1.png" alt="" />
                         <div class="space50"></div>
                         <h2> Sorry! Page Not Found!</h2>
                         <div class="space16"></div>
@@ -109,23 +109,23 @@
     <!--===== FOOTER AREA ENDS =======-->
 
     <!--===== JS SCRIPT LINK =======-->
-    <script src="assets/js/plugins/bootstrap.min.js"></script>
-    <script src="assets/js/plugins/fontawesome.js"></script>
-    <script src="assets/js/plugins/aos.js"></script>
-    <script src="assets/js/plugins/counter.js"></script>
-    <script src="assets/js/plugins/gsap.min.js"></script>
-    <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
-    <script src="assets/js/plugins/Splitetext.js"></script>
-    <script src="assets/js/plugins/sidebar.js"></script>
-    <script src="assets/js/plugins/magnific-popup.js"></script>
-    <script src="assets/js/plugins/mobilemenu.js"></script>
-    <script src="assets/js/plugins/owlcarousel.min.js"></script>
-    <script src="assets/js/plugins/gsap-animation.js"></script>
-    <script src="assets/js/plugins/nice-select.js"></script>
-    <script src="assets/js/plugins/waypoints.js"></script>
-    <script src="assets/js/plugins/slick-slider.js"></script>
-    <script src="assets/js/plugins/circle-progress.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/plugins/bootstrap.min.js"></script>
+    <script src="/assets/js/plugins/fontawesome.js"></script>
+    <script src="/assets/js/plugins/aos.js"></script>
+    <script src="/assets/js/plugins/counter.js"></script>
+    <script src="/assets/js/plugins/gsap.min.js"></script>
+    <script src="/assets/js/plugins/ScrollTrigger.min.js"></script>
+    <script src="/assets/js/plugins/Splitetext.js"></script>
+    <script src="/assets/js/plugins/sidebar.js"></script>
+    <script src="/assets/js/plugins/magnific-popup.js"></script>
+    <script src="/assets/js/plugins/mobilemenu.js"></script>
+    <script src="/assets/js/plugins/owlcarousel.min.js"></script>
+    <script src="/assets/js/plugins/gsap-animation.js"></script>
+    <script src="/assets/js/plugins/nice-select.js"></script>
+    <script src="/assets/js/plugins/waypoints.js"></script>
+    <script src="/assets/js/plugins/slick-slider.js"></script>
+    <script src="/assets/js/plugins/circle-progress.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -115,18 +115,18 @@
                                     <img src="assets/img/icons/phone3.svg" alt="">
                                 </div>
                                 <div class="content">
-                                    <p>Phone Number</p>
-                                    <a href="tel:952-353-6368">952-353-6368</a>
+                                    <p style="font-size: 0.85rem;">Phone Number</p>
+                                    <a href="tel:952-353-6368" style="font-size: 0.9rem;">952-353-6368</a>
                                 </div>
                             </div>
-
                             <div class="phone-number m-0">
                                 <div class="img1">
                                     <img src="assets/img/icons/email3.svg" alt="">
                                 </div>
                                 <div class="content">
-                                    <p>Email Address</p>
-                                    <a href="mailto:">info@techlavate.com</a>
+                                    <p style="font-size: 0.85rem;">Email Address</p>
+                                    <a href="mailto:info@techlavate.com"
+                                        style="font-size: 0.9rem;">info@techlavate.com</a>
                                 </div>
                             </div>
                         </div>
@@ -137,16 +137,17 @@
                                     <img src="assets/img/icons/location3.svg" alt="">
                                 </div>
                                 <div class="content">
-                                    <a href="#">
+                                    <a href="#" style="font-size: 0.85rem;">
                                         8708 700 Twelve Oaks Center Dr #246,<br class="d-lg-block d-none">
-                                        Wayzata, MN 55391</a>
+                                        Wayzata, MN 55391
+                                    </a>
                                 </div>
                             </div>
-
                             <div class="phone-number">
-                                <a href="https://maps.app.goo.gl/gTxacAEhAZYfnSbt7" class="map"
-                                    target="_blank">View
-                                    Our Map</a>
+                                <a href="https://maps.app.goo.gl/gTxacAEhAZYfnSbt7" class="map" target="_blank"
+                                    style="font-size: 0.8rem;">
+                                    View Our Map
+                                </a>
                             </div>
                         </div>
                     </div>

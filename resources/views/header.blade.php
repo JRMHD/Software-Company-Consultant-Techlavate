@@ -5,21 +5,20 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="/"><img src="assets/img/logo/logo1.png" alt="Logo"
+                            <a href="/"><img src="/assets/img/logo/logo1.png" alt="Logo"
                                     style="width: 120px; height: auto;"></a>
                         </div>
                         <div class="main-menu">
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li><a href="/about">About</a></li>
                                 <li><a href="/services">Services</a></li>
                                 <li><a href="/implementation-strategy">Implementation Strategy</a></li>
-                                <li><a href="/faq">FAQ</a></li>
+                                <li><a href="/about">About</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>
                         </div>
                         <div class="btn-area">
-                            <a href="/quote" class="header-btn1">Free Consultation <span><i
+                            <a href="/quote" class="header-btn1">Free Quote Request <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -48,7 +47,7 @@
 <div class="mobile-sidebar mobile-sidebar1">
     <div class="logosicon-area">
         <div class="logos">
-            <img src="assets/img/logo/logo1.png" alt="" style="width: 120px; height: auto;">
+            <img src="/assets/img/logo/logo1.png" alt="" style="width: 120px; height: auto;">
         </div>
         <div class="menu-close">
             <i class="fa-solid fa-xmark"></i>
@@ -57,15 +56,15 @@
     <div class="mobile-nav mobile-nav1">
         <ul class="mobile-nav-list nav-list1">
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/faq">FAQ</a></li>
             <li><a href="/services">Services</a></li>
             <li><a href="/implementation-strategy">Implementation Strategy</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+
         </ul>
 
         <div class="allmobilesection">
-            <a href="/quote" class="header-btn1">Free Consultation <span><i
+            <a href="/quote" class="header-btn1">Free Quote Request <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
             <div class="single-footer">
                 <h3>Contact Info</h3>
@@ -126,7 +125,7 @@
     <div class="loading-container">
         <div class="loading"></div>
         <div id="loading-icon" style="display: flex; justify-content: center; align-items: center;">
-            <img src="assets/img/logo/preloader.png" alt="">
+            <img src="/assets/img/logo/preloader.png" alt="">
         </div>
     </div>
 </div>

@@ -113,17 +113,17 @@
                 <!-- Contact Info -->
                 <div class="col-lg-5" data-aos="zoom-out" data-aos-duration="1000">
                     <div class="contact-info-area">
-                        <h3>Contact Information</h3>
-                        <p>Our team is here to guide your digital transformation. Reach out with your goals or
-                            questions.</p>
+                        <h3 style="font-size: 1.5rem;">Contact Information</h3>
+                        <p style="font-size: 0.9rem;">Our team is here to guide your digital transformation. Reach out
+                            with your goals or questions.</p>
                         <div class="space32"></div>
                         <div class="contact-auhtor-box">
                             <div class="icons">
                                 <img src="assets/img/icons/location2.svg" alt="">
                             </div>
                             <div class="content">
-                                <h4>Our Location</h4>
-                                <a href="#">8708 700 Twelve Oaks Center Dr #246,
+                                <h4 style="font-size: 1rem;">Our Location</h4>
+                                <a href="#" style="font-size: 0.85rem;">8708 700 Twelve Oaks Center Dr #246,
                                     Wayzata, MN 55391</a>
                             </div>
                         </div>
@@ -133,8 +133,8 @@
                                 <img src="assets/img/icons/phone2.svg" alt="">
                             </div>
                             <div class="content">
-                                <h4>Phone Number</h4>
-                                <a href="tel:+1 952-353-6368">+1 952-353-6368</a>
+                                <h4 style="font-size: 1rem;">Phone Number</h4>
+                                <a href="tel:+1 952-353-6368" style="font-size: 0.85rem;">+1 952-353-6368</a>
                             </div>
                         </div>
                         <div class="space40"></div>
@@ -143,8 +143,9 @@
                                 <img src="assets/img/icons/email2.svg" alt="">
                             </div>
                             <div class="content">
-                                <h4>Email Address</h4>
-                                <a href="mailto:info@techlavate.com">info@techlavate.com</a>
+                                <h4 style="font-size: 1rem;">Email Address</h4>
+                                <a href="mailto:info@techlavate.com"
+                                    style="font-size: 0.85rem;">info@techlavate.com</a>
                             </div>
                         </div>
                     </div>
