@@ -13,6 +13,7 @@
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/services">Services</a></li>
                                 <li><a href="/implementation-strategy">Implementation Strategy</a></li>
+                                <li><a href="/industries">Industries We Serve</a></li>
                                 <li><a href="/about">About</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>
@@ -26,6 +27,26 @@
             </div>
         </div>
     </div>
+    <script>
+        // Get current path
+        const currentPath = window.location.pathname;
+
+        // Get all nav links
+        document.querySelectorAll('.main-menu ul li a').forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+    <style>
+        .main-menu ul li a.active {
+            color: #007bff;
+            /* Highlight color */
+            font-weight: bold;
+            border-bottom: 2px solid #007bff;
+            /* Optional underline effect */
+        }
+    </style>
 </header>
 <!--===== MOBILE HEADER STARTS =======-->
 <div class="mobile-header mobile-haeder1 d-block d-lg-none">
@@ -58,6 +79,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/services">Services</a></li>
             <li><a href="/implementation-strategy">Implementation Strategy</a></li>
+            <li><a href="/industries">Industries We Serve</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
 
