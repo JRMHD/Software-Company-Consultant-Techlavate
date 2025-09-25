@@ -12,6 +12,7 @@
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/services">Services</a></li>
+                                <li><a href="/recruiting">Recruiting Services</a></li>
                                 <li><a href="/implementation-strategy">Implementation Strategy</a></li>
                                 <li><a href="/industries">Industries We Serve</a></li>
                                 <li><a href="/about">About</a></li>
@@ -46,7 +47,92 @@
             border-bottom: 2px solid #007bff;
             /* Optional underline effect */
         }
+
+        /* Dropdown styles */
+        .main-menu ul li {
+            position: relative;
+        }
+
+        .main-menu ul li .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+            padding: 10px 0;
+            min-width: 200px;
+            display: none;
+            z-index: 1000;
+        }
+
+        .main-menu ul li .dropdown-menu.show {
+            display: block;
+        }
+
+        .main-menu ul li .dropdown-menu a {
+            display: block;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+            transition: background-color 0.2s ease;
+        }
+
+        .main-menu ul li .dropdown-menu a:hover {
+            background-color: #f8f9fa;
+            color: #007bff;
+        }
+
+        /* Mobile submenu styles */
+        .mobile-submenu li {
+            margin: 5px 0;
+        }
+
+        .mobile-submenu li a {
+            color: #666;
+            font-size: 14px;
+        }
     </style>
+
+    <script>
+        function toggleDesktopDropdown(event) {
+            event.preventDefault();
+            const dropdown = event.target.closest('li').querySelector('.dropdown-menu');
+            const isVisible = dropdown.classList.contains('show');
+
+            // Close all other dropdowns first
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                menu.classList.remove('show');
+            });
+
+            if (!isVisible) {
+                dropdown.classList.add('show');
+            }
+        }
+
+        function toggleMobileSubmenu(event) {
+            event.preventDefault();
+            const submenu = event.target.nextElementSibling;
+            if (submenu.style.display === 'none' || submenu.style.display === '') {
+                submenu.style.display = 'block';
+                event.target.querySelector('i').classList.remove('fa-chevron-down');
+                event.target.querySelector('i').classList.add('fa-chevron-up');
+            } else {
+                submenu.style.display = 'none';
+                event.target.querySelector('i').classList.remove('fa-chevron-up');
+                event.target.querySelector('i').classList.add('fa-chevron-down');
+            }
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.main-menu li')) {
+                document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                    menu.classList.remove('show');
+                });
+            }
+        });
+    </script>
 </header>
 <!--===== MOBILE HEADER STARTS =======-->
 <div class="mobile-header mobile-haeder1 d-block d-lg-none">
@@ -78,6 +164,7 @@
         <ul class="mobile-nav-list nav-list1">
             <li><a href="/">Home</a></li>
             <li><a href="/services">Services</a></li>
+            <li><a href="/recruiting">Recruiting Services</a></li>
             <li><a href="/implementation-strategy">Implementation Strategy</a></li>
             <li><a href="/industries">Industries We Serve</a></li>
             <li><a href="/about">About</a></li>

@@ -201,6 +201,17 @@
                                 </div>
                             </div>
 
+                            <div class="col-lg-3 col-md-6">
+                                <div class="service-boxarea text-center">
+                                    <a href="/recruiting">Recruiting Services</a>
+                                    <div class="space40"></div>
+                                    <!-- Font Awesome icon -->
+                                    <i class="fa-solid fa-users fa-4x"></i>
+                                    <div class="space40"></div>
+                                    <p>Connect with top-tier Dynamics 365 professionals to elevate your workforce and accelerate project success.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

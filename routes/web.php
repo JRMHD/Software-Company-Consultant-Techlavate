@@ -29,6 +29,7 @@ Route::view('/faq', 'faq');
 Route::view('/implementation-strategy', 'implementation-strategy');
 Route::view('/services', 'services');
 Route::view('/industries', 'industries');
+Route::view('/recruiting', 'recruiting');
 Route::view('/quote', 'quote');
 Route::fallback(function () {
     return response()->view('404', [], 404);
