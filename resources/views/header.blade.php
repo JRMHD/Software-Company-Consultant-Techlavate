@@ -8,19 +8,27 @@
                             <a href="/"><img src="/assets/img/logo/logo1.png" alt="Logo"
                                     style="width: 120px; height: auto;"></a>
                         </div>
-                        <div class="main-menu">
+                        <div class="main-menu" style="font-size: 14px;">
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/services">Services</a></li>
-                                <li><a href="/recruiting">Recruiting Services</a></li>
-                                <li><a href="/implementation-strategy">Implementation Strategy</a></li>
-                                <li><a href="/industries">Industries We Serve</a></li>
+                                <li>
+                                    <a href="#" onclick="toggleDesktopDropdown(event)">Solutions <i class="fa-solid fa-chevron-down" style="font-size: 10px; margin-left: 4px;"></i></a>
+                                    <div class="dropdown-menu">
+                                        <a href="/recruiting">Recruiting Services</a>
+                                        <a href="/implementation-strategy">Implementation Strategy</a>
+                                        <a href="/industries">Industries We Serve</a>
+                                    </div>
+                                </li>
+                                <li><a href="/blog">Blog</a></li>
                                 <li><a href="/about">About</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>
                         </div>
-                        <div class="btn-area">
-                            <a href="/quote" class="header-btn1">Free Quote Request <span><i
+                        <div class="btn-area" style="display: flex; gap: 10px;">
+                            <a href="/login" class="header-btn2" style="padding: 8px 20px; font-size: 14px; border: 2px solid #4E2FDA; color: #4E2FDA; white-space: nowrap;">Login <span><i
+                                        class="fa-solid fa-arrow-right"></i></span></a>
+                            <a href="/quote" class="header-btn1" style="padding: 8px 20px; font-size: 14px; white-space: nowrap;">Free Quote <span><i
                                         class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -58,29 +66,48 @@
             top: 100%;
             left: 0;
             background: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 4px;
-            padding: 10px 0;
-            min-width: 200px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            padding: 8px 0;
+            min-width: 240px;
             display: none;
             z-index: 1000;
+            margin-top: 10px;
+            border: 1px solid #e5e7eb;
         }
 
         .main-menu ul li .dropdown-menu.show {
             display: block;
+            animation: dropdownFadeIn 0.3s ease;
+        }
+
+        @keyframes dropdownFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .main-menu ul li .dropdown-menu a {
             display: block;
-            padding: 10px 20px;
-            color: #333;
+            padding: 12px 20px;
+            color: #374151;
             text-decoration: none;
-            transition: background-color 0.2s ease;
+            transition: all 0.2s ease;
+            font-size: 14px;
+            font-weight: 500;
+            border-left: 3px solid transparent;
         }
 
         .main-menu ul li .dropdown-menu a:hover {
-            background-color: #f8f9fa;
-            color: #007bff;
+            background: linear-gradient(90deg, rgba(78, 47, 218, 0.1) 0%, transparent 100%);
+            color: #4E2FDA;
+            border-left-color: #4E2FDA;
+            padding-left: 24px;
         }
 
         /* Mobile submenu styles */
@@ -91,6 +118,11 @@
         .mobile-submenu li a {
             color: #666;
             font-size: 14px;
+            transition: color 0.2s ease;
+        }
+
+        .mobile-submenu li a:hover {
+            color: #4E2FDA;
         }
     </style>
 
@@ -164,15 +196,26 @@
         <ul class="mobile-nav-list nav-list1">
             <li><a href="/">Home</a></li>
             <li><a href="/services">Services</a></li>
-            <li><a href="/recruiting">Recruiting Services</a></li>
-            <li><a href="/implementation-strategy">Implementation Strategy</a></li>
-            <li><a href="/industries">Industries We Serve</a></li>
+            <li>
+                <a href="#" onclick="toggleMobileSubmenu(event)" style="display: flex; justify-content: space-between; align-items: center;">
+                    Solutions
+                    <i class="fa-solid fa-chevron-down" style="font-size: 12px;"></i>
+                </a>
+                <ul class="mobile-submenu" style="display: none; padding-left: 20px; margin-top: 10px;">
+                    <li><a href="/recruiting">Recruiting Services</a></li>
+                    <li><a href="/implementation-strategy">Implementation Strategy</a></li>
+                    <li><a href="/industries">Industries We Serve</a></li>
+                </ul>
+            </li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/contact">Contact</a></li>
 
         </ul>
 
         <div class="allmobilesection">
+            <a href="/login" class="header-btn2" style="border: 2px solid #4E2FDA; color: #4E2FDA; margin-bottom: 10px; display: block;">Login <span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
             <a href="/quote" class="header-btn1">Free Quote Request <span><i
                         class="fa-solid fa-arrow-right"></i></span></a>
             <div class="single-footer">

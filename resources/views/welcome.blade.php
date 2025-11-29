@@ -359,6 +359,41 @@
     <!--===== SERVICE AREA ENDS =======-->
 
 
+    <!--===== BLOG AREA STARTS =======-->
+    <div class="blog-section-area sp1" style="background: #f9fafb; padding: 60px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 m-auto">
+                    <div class="blog-header-area heading2 text-center">
+                        <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
+                        <img src="assets/img/elements/star2.png" alt="" class="star3 keyframe5">
+                        <h2 class="text-anime-style-3">Latest Insights & Resources</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000">Expert articles, guides, and updates on Microsoft technologies and digital transformation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space30"></div>
+            <div class="row">
+                @foreach($posts as $post)
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="800">
+                    <div class="blog-card" style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.05); height: 100%; transition: transform 0.3s;">
+                        <div class="blog-img" style="height: 200px; overflow: hidden;">
+                            <img src="{{ $post->featured_image ? asset('storage/' . $post->featured_image) : asset('assets/img/all-images/case-img1.png') }}" alt="{{ $post->title }}" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="blog-content" style="padding: 25px;">
+                            <span style="color: #4E2FDA; font-weight: 600; font-size: 14px; display: block; margin-bottom: 10px;">{{ $post->category->name ?? 'Techlavate Insights' }}</span>
+                            <h4 style="margin-bottom: 15px; font-size: 20px;"><a href="{{ route('blog.show', $post->slug) }}" style="color: #111827; text-decoration: none; font-weight: 700;">{{ $post->title }}</a></h4>
+                            <p style="color: #6b7280; font-size: 15px; margin-bottom: 20px;">{{ \Illuminate\Support\Str::limit($post->excerpt, 100) }}</p>
+                            <a href="{{ route('blog.show', $post->slug) }}" style="color: #4E2FDA; font-weight: 600; text-decoration: none;">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+    <!--===== BLOG AREA ENDS =======-->
+
     <!--===== CASE AREA STARTS =======-->
     <div class="case1-section-area">
         <div class="container">

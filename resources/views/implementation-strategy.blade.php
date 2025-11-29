@@ -123,94 +123,157 @@
         </div>
     </div>
 
-    <div class="case-lista-area sp1 bg2">
+    <div class="works-inner-section-area sp1" style="background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);">
         <div class="container">
             <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="works-header-area text-center heading2">
+                        <h5><img src="assets/img/logo/logo1.png" alt="" style="width: 30px; height: auto; margin-right: 10px;"> Our Implementation Methodology</h5>
+                        <h2>Our 5-Phase Approach</h2>
+                        <p style="max-width: 700px; margin: 20px auto 0;">A proven, structured methodology that ensures successful deployment of Microsoft solutions—from discovery to optimization.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space60"></div>
+            <div class="row">
+                <!-- Phase 1 -->
+                <div class="col-lg-12 mb-4">
+                    <div class="works-content-box" style="background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #4E2FDA;">
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #4E2FDA 0%, #7c3aed 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                <span style="color: white; font-size: 24px; font-weight: 700;">1</span>
+                            </div>
+                            <h4 style="margin: 0; color: #111827; font-size: 24px; font-weight: 700;">Discovery & Assessment</h4>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 20px;"><strong style="color: #4E2FDA;">Objective:</strong> Understand the client's business needs, current systems, pain points, and goals to determine the right solution scope and approach.</p>
+                        <div style="background: #f9fafb; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                            <p style="margin-bottom: 10px; color: #374151; font-weight: 600;">Activities:</p>
+                            <ul style="margin: 0; padding-left: 20px; color: #6b7280;">
+                                <li style="margin-bottom: 8px;">Stakeholder interviews and business process reviews</li>
+                                <li style="margin-bottom: 8px;">Assessment of existing systems (CRM, ERP, spreadsheets, etc.)</li>
+                                <li style="margin-bottom: 8px;">Gap analysis between current state and desired outcomes</li>
+                                <li style="margin-bottom: 8px;">Define key performance indicators (KPIs)</li>
+                                <li style="margin-bottom: 8px;">Identify regulatory or compliance requirements</li>
+                            </ul>
+                        </div>
+                        <p style="color: #374151; margin: 0;"><strong style="color: #4E2FDA;">Deliverables:</strong> Requirements Document, Process Maps, Solution Design, Project Charter</p>
+                    </div>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="col-lg-12 mb-4">
+                    <div class="works-content-box" style="background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #10b981;">
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                <span style="color: white; font-size: 24px; font-weight: 700;">2</span>
+                            </div>
+                            <h4 style="margin: 0; color: #111827; font-size: 24px; font-weight: 700;">Solution Design & Planning</h4>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 20px;"><strong style="color: #10b981;">Objective:</strong> Architect a tailored solution using Dynamics 365, Power Platform, or Business Central based on defined requirements.</p>
+                        <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                            <p style="margin-bottom: 10px; color: #374151; font-weight: 600;">Activities:</p>
+                            <ul style="margin: 0; padding-left: 20px; color: #6b7280;">
+                                <li style="margin-bottom: 8px;">Define data models, custom entities, and fields</li>
+                                <li style="margin-bottom: 8px;">Identify integration points</li>
+                                <li style="margin-bottom: 8px;">Design workflows, automations, and roles</li>
+                                <li style="margin-bottom: 8px;">Develop phased rollout roadmap</li>
+                                <li style="margin-bottom: 8px;">Build detailed project and resource plan</li>
+                            </ul>
+                        </div>
+                        <p style="color: #374151; margin: 0;"><strong style="color: #10b981;">Deliverables:</strong> Functional Design, Architecture Diagram, Roadmap, Risk Plan</p>
+                    </div>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="col-lg-12 mb-4">
+                    <div class="works-content-box" style="background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #f59e0b;">
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                <span style="color: white; font-size: 24px; font-weight: 700;">3</span>
+                            </div>
+                            <h4 style="margin: 0; color: #111827; font-size: 24px; font-weight: 700;">Build & Configure</h4>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 20px;"><strong style="color: #f59e0b;">Objective:</strong> Configure, customize, and integrate the Microsoft solutions per the approved design.</p>
+                        <div style="background: #fffbeb; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                            <p style="margin-bottom: 10px; color: #374151; font-weight: 600;">Activities:</p>
+                            <ul style="margin: 0; padding-left: 20px; color: #6b7280;">
+                                <li style="margin-bottom: 8px;">Set up Dynamics 365 CE, Business Central modules</li>
+                                <li style="margin-bottom: 8px;">Develop Power Apps, Flows, APIs</li>
+                                <li style="margin-bottom: 8px;">Build Power BI dashboards</li>
+                                <li style="margin-bottom: 8px;">Conduct data migration</li>
+                                <li style="margin-bottom: 8px;">Integrate Teams, Outlook, etc.</li>
+                            </ul>
+                        </div>
+                        <p style="color: #374151; margin: 0;"><strong style="color: #f59e0b;">Deliverables:</strong> Configured environments, Dashboards, Migration Scripts, Testing Reports</p>
+                    </div>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="col-lg-12 mb-4">
+                    <div class="works-content-box" style="background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #3b82f6;">
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                <span style="color: white; font-size: 24px; font-weight: 700;">4</span>
+                            </div>
+                            <h4 style="margin: 0; color: #111827; font-size: 24px; font-weight: 700;">User Training & Deployment</h4>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 20px;"><strong style="color: #3b82f6;">Objective:</strong> Ensure business users are trained and the system is deployed smoothly into production.</p>
+                        <div style="background: #eff6ff; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                            <p style="margin-bottom: 10px; color: #374151; font-weight: 600;">Activities:</p>
+                            <ul style="margin: 0; padding-left: 20px; color: #6b7280;">
+                                <li style="margin-bottom: 8px;">End-user training sessions</li>
+                                <li style="margin-bottom: 8px;">UAT with stakeholders</li>
+                                <li style="margin-bottom: 8px;">Go-live deployment</li>
+                                <li style="margin-bottom: 8px;">Support channels setup</li>
+                            </ul>
+                        </div>
+                        <p style="color: #374151; margin: 0;"><strong style="color: #3b82f6;">Deliverables:</strong> Training materials, UAT Sign-Off, Go-Live Checklist</p>
+                    </div>
+                </div>
+
+                <!-- Phase 5 -->
+                <div class="col-lg-12 mb-4">
+                    <div class="works-content-box" style="background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #8b5cf6;">
+                        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                            <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+                                <span style="color: white; font-size: 24px; font-weight: 700;">5</span>
+                            </div>
+                            <h4 style="margin: 0; color: #111827; font-size: 24px; font-weight: 700;">Post-Go-Live Support & Optimization</h4>
+                        </div>
+                        <p style="color: #6b7280; margin-bottom: 20px;"><strong style="color: #8b5cf6;">Objective:</strong> Provide support, monitor adoption, and identify improvement opportunities post-deployment.</p>
+                        <div style="background: #f5f3ff; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                            <p style="margin-bottom: 10px; color: #374151; font-weight: 600;">Activities:</p>
+                            <ul style="margin: 0; padding-left: 20px; color: #6b7280;">
+                                <li style="margin-bottom: 8px;">Hypercare support (2–4 weeks)</li>
+                                <li style="margin-bottom: 8px;">Monitor usage and gather feedback</li>
+                                <li style="margin-bottom: 8px;">Handle enhancement requests</li>
+                                <li style="margin-bottom: 8px;">Optimize configurations</li>
+                                <li style="margin-bottom: 8px;">Offer managed services</li>
+                            </ul>
+                        </div>
+                        <p style="color: #374151; margin: 0;"><strong style="color: #8b5cf6;">Deliverables:</strong> Support Playbook, Performance Reports, Enhancement Roadmap</p>
+                    </div>
+                </div>
+
+                <!-- Best Practices -->
                 <div class="col-lg-12">
-                    <div class="case-pera-area heading2">
-                        <h2>Our 5-Phase Approach:</h2>
-
-                        <!-- Phase 1 -->
-                        <h4>Phase 1: Discovery & Assessment</h4>
-                        <p><strong>Objective:</strong> Understand the client’s business needs, current systems, pain
-                            points, and goals to determine the right solution scope and approach.</p>
-                        <p><strong>Activities:</strong></p>
-                        <ul>
-                            <li>Stakeholder interviews and business process reviews</li>
-                            <li>Assessment of existing systems (CRM, ERP, spreadsheets, etc.)</li>
-                            <li>Gap analysis between current state and desired outcomes</li>
-                            <li>Define key performance indicators (KPIs)</li>
-                            <li>Identify regulatory or compliance requirements</li>
-                        </ul>
-                        <p><strong>Deliverables:</strong> Requirements Document, Process Maps, Solution Design, Project
-                            Charter</p>
-
-                        <!-- Phase 2 -->
-                        <h4 class="mt-4">Phase 2: Solution Design & Planning</h4>
-                        <p><strong>Objective:</strong> Architect a tailored solution using Dynamics 365, Power Platform,
-                            or Business Central based on defined requirements.</p>
-                        <p><strong>Activities:</strong></p>
-                        <ul>
-                            <li>Define data models, custom entities, and fields</li>
-                            <li>Identify integration points</li>
-                            <li>Design workflows, automations, and roles</li>
-                            <li>Develop phased rollout roadmap</li>
-                            <li>Build detailed project and resource plan</li>
-                        </ul>
-                        <p><strong>Deliverables:</strong> Functional Design, Architecture Diagram, Roadmap, Risk Plan
-                        </p>
-
-                        <!-- Phase 3 -->
-                        <h4 class="mt-4">Phase 3: Build & Configure</h4>
-                        <p><strong>Objective:</strong> Configure, customize, and integrate the Microsoft solutions per
-                            the approved design.</p>
-                        <p><strong>Activities:</strong></p>
-                        <ul>
-                            <li>Set up Dynamics 365 CE, Business Central modules</li>
-                            <li>Develop Power Apps, Flows, APIs</li>
-                            <li>Build Power BI dashboards</li>
-                            <li>Conduct data migration</li>
-                            <li>Integrate Teams, Outlook, etc.</li>
-                        </ul>
-                        <p><strong>Deliverables:</strong> Configured environments, Dashboards, Migration Scripts,
-                            Testing Reports</p>
-
-                        <!-- Phase 4 -->
-                        <h4 class="mt-4">Phase 4: User Training & Deployment</h4>
-                        <p><strong>Objective:</strong> Ensure business users are trained and the system is deployed
-                            smoothly into production.</p>
-                        <p><strong>Activities:</strong></p>
-                        <ul>
-                            <li>End-user training sessions</li>
-                            <li>UAT with stakeholders</li>
-                            <li>Go-live deployment</li>
-                            <li>Support channels setup</li>
-                        </ul>
-                        <p><strong>Deliverables:</strong> Training materials, UAT Sign-Off, Go-Live Checklist</p>
-
-                        <!-- Phase 5 -->
-                        <h4 class="mt-4">Phase 5: Post-Go-Live Support & Optimization</h4>
-                        <p><strong>Objective:</strong> Provide support, monitor adoption, and identify improvement
-                            opportunities post-deployment.</p>
-                        <p><strong>Activities:</strong></p>
-                        <ul>
-                            <li>Hypercare support (2–4 weeks)</li>
-                            <li>Monitor usage and gather feedback</li>
-                            <li>Handle enhancement requests</li>
-                            <li>Optimize configurations</li>
-                            <li>Offer managed services</li>
-                        </ul>
-                        <p><strong>Deliverables:</strong> Support Playbook, Performance Reports, Enhancement Roadmap</p>
-
-                        <!-- Cross-Phase -->
-                        <h4 class="mt-4">Cross-Phase Best Practices:</h4>
-                        <ul>
-                            <li>Agile Execution for faster value delivery</li>
-                            <li>Stakeholder Change Management</li>
-                            <li>Role-based security & compliance</li>
-                            <li>Testing at all stages (unit, integration, UAT)</li>
-                            <li>Thorough documentation and knowledge transfer</li>
-                        </ul>
+                    <div class="works-content-box" style="background: linear-gradient(135deg, #4E2FDA 0%, #7c3aed 100%); padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(78,47,218,0.3);">
+                        <h4 style="margin: 0 0 20px 0; color: white; font-size: 24px; font-weight: 700; text-align: center;">Cross-Phase Best Practices</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul style="margin: 0; padding-left: 20px; color: rgba(255,255,255,0.9);">
+                                    <li style="margin-bottom: 12px;">✓ Agile Execution for faster value delivery</li>
+                                    <li style="margin-bottom: 12px;">✓ Stakeholder Change Management</li>
+                                    <li style="margin-bottom: 12px;">✓ Role-based security & compliance</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul style="margin: 0; padding-left: 20px; color: rgba(255,255,255,0.9);">
+                                    <li style="margin-bottom: 12px;">✓ Testing at all stages (unit, integration, UAT)</li>
+                                    <li style="margin-bottom: 12px;">✓ Thorough documentation and knowledge transfer</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

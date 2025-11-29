@@ -130,73 +130,86 @@
     <!--===== RECRUITING OVERVIEW SECTION ENDS =======-->
 
     <!--===== WHY CHOOSE SECTION STARTS =======-->
-    <div class="works-inner-section-area sp1" style="background-color: #f8f9fa;">
+    <div class="works-inner-section-area sp1" style="background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 m-auto">
                     <div class="works-header-area text-center heading2">
-                        <h5>Why Choose Techlavate Recruiting?</h5>
+                        <h5><img src="assets/img/logo/logo1.png" alt="" style="width: 30px; height: auto; margin-right: 10px;"> Why Choose Techlavate Recruiting?</h5>
                         <h2>Specialized Expertise That Makes the Difference</h2>
                     </div>
                 </div>
             </div>
+            <div class="space60"></div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <img src="assets/img/icons/works-icons7.svg" alt="Niche Focus icon">
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-bullseye" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Niche Focus</a>
-                            <p>We specialize exclusively in Dynamics 365, Power Platform, and Microsoft Business Applications, giving us an edge over general IT recruiters.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Niche Focus</a>
+                            <p style="color: #6b7280; line-height: 1.6;">We specialize exclusively in Dynamics 365, Power Platform, and Microsoft Business Applications, giving us an edge over general IT recruiters.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <img src="assets/img/icons/works-icons8.svg" alt="Industry Expertise icon">
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-award" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Industry Expertise</a>
-                            <p>As seasoned implementers ourselves, we know the skills, certifications, and hands-on experience that truly make a difference.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Industry Expertise</a>
+                            <p style="color: #6b7280; line-height: 1.6;">As seasoned implementers ourselves, we know the skills, certifications, and hands-on experience that truly make a difference.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <img src="assets/img/icons/works-icons9.svg" alt="Tailored Hiring icon">
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-sliders" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Tailored Hiring Models</a>
-                            <p>From contract staffing to permanent placements, we adapt to your business needs.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Tailored Hiring Models</a>
+                            <p style="color: #6b7280; line-height: 1.6;">From contract staffing to permanent placements, we adapt to your business needs.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <img src="assets/img/icons/works-icons7.svg" alt="Quality icon">
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-star" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Quality Over Quantity</a>
-                            <p>Every candidate is pre-vetted on technical expertise, cultural fit, and project readiness.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Quality Over Quantity</a>
+                            <p style="color: #6b7280; line-height: 1.6;">Every candidate is pre-vetted on technical expertise, cultural fit, and project readiness.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <img src="assets/img/icons/works-icons8.svg" alt="Global Reach icon">
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-globe" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Global Reach</a>
-                            <p>Access a wide network of certified Dynamics professionals across the U.S. and beyond.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Global Reach</a>
+                            <p style="color: #6b7280; line-height: 1.6;">Access a wide network of certified Dynamics professionals across the U.S. and beyond.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-handshake" style="font-size: 48px; color: #4E2FDA;"></i>
+                        </div>
+                        <div class="content">
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Trusted Partnership</a>
+                            <p style="color: #6b7280; line-height: 1.6;">We build long-term relationships, ensuring ongoing support for your talent acquisition needs.</p>
                         </div>
                     </div>
                 </div>
@@ -211,56 +224,57 @@
             <div class="row">
                 <div class="col-lg-8 m-auto">
                     <div class="works-header-area text-center heading2">
-                        <h5>Our Recruiting Services</h5>
+                        <h5><img src="assets/img/logo/logo1.png" alt="" style="width: 30px; height: auto; margin-right: 10px;"> Our Recruiting Services</h5>
                         <h2>Comprehensive Talent Solutions</h2>
                     </div>
                 </div>
             </div>
+            <div class="space60"></div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <i class="fa-solid fa-check-circle" style="font-size: 2rem; color: #007bff;"></i>
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0; margin-bottom: 30px;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-user-tie" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Permanent Placement</a>
-                            <p>Build long-term success by hiring the right full-time Dynamics professionals.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Permanent Placement</a>
+                            <p style="color: #6b7280; line-height: 1.6;">Build long-term success by hiring the right full-time Dynamics professionals.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <i class="fa-solid fa-check-circle" style="font-size: 2rem; color: #007bff;"></i>
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0; margin-bottom: 30px;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-users-gear" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Contract & Project Staffing</a>
-                            <p>Scale your workforce quickly with certified consultants for short-term or project-based needs.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Contract & Project Staffing</a>
+                            <p style="color: #6b7280; line-height: 1.6;">Scale your workforce quickly with certified consultants for short-term or project-based needs.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <i class="fa-solid fa-check-circle" style="font-size: 2rem; color: #007bff;"></i>
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0; margin-bottom: 30px;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-crown" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Executive & Leadership Search</a>
-                            <p>Secure leaders who can guide digital transformation and drive adoption of Dynamics 365 across your enterprise.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Executive & Leadership Search</a>
+                            <p style="color: #6b7280; line-height: 1.6;">Secure leaders who can guide digital transformation and drive adoption of Dynamics 365 across your enterprise.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-6">
-                    <div class="works-content-box">
-                        <div class="icons">
-                            <i class="fa-solid fa-check-circle" style="font-size: 2rem; color: #007bff;"></i>
+                    <div class="works-content-box" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s; height: 100%; border: 1px solid #f0f0f0; margin-bottom: 30px;">
+                        <div class="icons" style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-people-group" style="font-size: 48px; color: #4E2FDA;"></i>
                         </div>
                         <div class="content">
-                            <a href="/recruiting">Team Augmentation</a>
-                            <p>Enhance your existing team with experts who bring specialized D365 skills right when you need them.</p>
+                            <a href="/recruiting" style="font-size: 20px; font-weight: 700; color: #111827; margin-bottom: 15px; display: block;">Team Augmentation</a>
+                            <p style="color: #6b7280; line-height: 1.6;">Enhance your existing team with experts who bring specialized D365 skills right when you need them.</p>
                         </div>
                     </div>
                 </div>
@@ -270,50 +284,51 @@
     <!--===== SERVICES SECTION ENDS =======-->
 
     <!--===== ROLES SECTION STARTS =======-->
-    <div class="works-inner-section-area sp1" style="background-color: #f8f9fa;">
+    <div class="works-inner-section-area sp1" style="background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 m-auto">
                     <div class="works-header-area text-center heading2">
-                        <h5>Roles We Recruit For</h5>
+                        <h5><img src="assets/img/logo/logo1.png" alt="" style="width: 30px; height: auto; margin-right: 10px;"> Roles We Recruit For</h5>
                         <h2>Comprehensive Dynamics 365 Talent Pool</h2>
                     </div>
                 </div>
             </div>
+            <div class="space60"></div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <ul style="list-style-type: none; padding-left: 0;">
-                        <li style="margin-bottom: 15px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-check" style="color: #007bff; margin-right: 10px;"></i>
-                            <span>Dynamics 365 CE / CRM Consultants</span>
+                        <li style="margin-bottom: 20px; display: flex; align-items: start; padding: 15px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s;">
+                            <i class="fa-solid fa-check-circle" style="color: #4E2FDA; margin-right: 15px; font-size: 20px; margin-top: 2px;"></i>
+                            <span style="color: #374151; font-weight: 500;">Dynamics 365 CE / CRM Consultants</span>
                         </li>
-                        <li style="margin-bottom: 15px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-check" style="color: #007bff; margin-right: 10px;"></i>
-                            <span>Dynamics 365 F&O Consultants</span>
+                        <li style="margin-bottom: 20px; display: flex; align-items: start; padding: 15px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s;">
+                            <i class="fa-solid fa-check-circle" style="color: #4E2FDA; margin-right: 15px; font-size: 20px; margin-top: 2px;"></i>
+                            <span style="color: #374151; font-weight: 500;">Dynamics 365 F&O Consultants</span>
                         </li>
-                        <li style="margin-bottom: 15px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-check" style="color: #007bff; margin-right: 10px;"></i>
-                            <span>Dynamics 365 Business Central Functional Consultants</span>
+                        <li style="margin-bottom: 20px; display: flex; align-items: start; padding: 15px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s;">
+                            <i class="fa-solid fa-check-circle" style="color: #4E2FDA; margin-right: 15px; font-size: 20px; margin-top: 2px;"></i>
+                            <span style="color: #374151; font-weight: 500;">Dynamics 365 Business Central Functional Consultants</span>
                         </li>
-                        <li style="margin-bottom: 15px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-check" style="color: #007bff; margin-right: 10px;"></i>
-                            <span>Power Platform Developers (Power Apps, Power Automate, Dataverse)</span>
+                        <li style="margin-bottom: 20px; display: flex; align-items: start; padding: 15px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s;">
+                            <i class="fa-solid fa-check-circle" style="color: #4E2FDA; margin-right: 15px; font-size: 20px; margin-top: 2px;"></i>
+                            <span style="color: #374151; font-weight: 500;">Power Platform Developers (Power Apps, Power Automate, Dataverse)</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <ul style="list-style-type: none; padding-left: 0;">
-                        <li style="margin-bottom: 15px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-check" style="color: #007bff; margin-right: 10px;"></i>
-                            <span>Technical Architects & Solution Architects</span>
+                        <li style="margin-bottom: 20px; display: flex; align-items: start; padding: 15px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s;">
+                            <i class="fa-solid fa-check-circle" style="color: #4E2FDA; margin-right: 15px; font-size: 20px; margin-top: 2px;"></i>
+                            <span style="color: #374151; font-weight: 500;">Technical Architects & Solution Architects</span>
                         </li>
-                        <li style="margin-bottom: 15px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-check" style="color: #007bff; margin-right: 10px;"></i>
-                            <span>Project Managers & Program Leads</span>
+                        <li style="margin-bottom: 20px; display: flex; align-items: start; padding: 15px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s;">
+                            <i class="fa-solid fa-check-circle" style="color: #4E2FDA; margin-right: 15px; font-size: 20px; margin-top: 2px;"></i>
+                            <span style="color: #374151; font-weight: 500;">Project Managers & Program Leads</span>
                         </li>
-                        <li style="margin-bottom: 15px; display: flex; align-items: center;">
-                            <i class="fa-solid fa-check" style="color: #007bff; margin-right: 10px;"></i>
-                            <span>Azure & Power BI Specialists supporting Dynamics 365 ecosystems</span>
+                        <li style="margin-bottom: 20px; display: flex; align-items: start; padding: 15px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: all 0.3s;">
+                            <i class="fa-solid fa-check-circle" style="color: #4E2FDA; margin-right: 15px; font-size: 20px; margin-top: 2px;"></i>
+                            <span style="color: #374151; font-weight: 500;">Azure & Power BI Specialists supporting Dynamics 365 ecosystems</span>
                         </li>
                     </ul>
                 </div>
@@ -347,15 +362,18 @@
     <!--===== FOR EMPLOYERS/CANDIDATES SECTION ENDS =======-->
 
     <!--===== CTA SECTION STARTS =======-->
-    <div class="cta-section-area" style="background-color: #007bff; color: white; padding: 80px 0;">
+    <div class="works-inner-section-area sp1" style="background: linear-gradient(135deg, #4E2FDA 0%, #7c3aed 100%); padding: 80px 0;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 m-auto text-center">
-                    <div class="cta-header-area heading2">
-                        <h2 style="color: white;">Partner With Techlavate – Elevate Your Workforce</h2>
-                        <p style="color: white;">Your projects deserve more than just resumes—they deserve the right people, at the right time. Connect with Techlavate Solutions today to discuss how our Dynamics 365 Recruiting Services can take your business to the next level.</p>
+                <div class="col-lg-10 m-auto text-center">
+                    <div class="works-header-area heading2">
+                        <h2 style="color: white; font-size: 42px; font-weight: 700; margin-bottom: 20px;">Partner With Techlavate – Elevate Your Workforce</h2>
+                        <p style="color: rgba(255,255,255,0.9); font-size: 18px; max-width: 800px; margin: 0 auto 40px;">Your projects deserve more than just resumes—they deserve the right people, at the right time. Connect with Techlavate Solutions today to discuss how our Dynamics 365 Recruiting Services can take your business to the next level.</p>
                         <div class="space32"></div>
-                        <a href="/contact" class="header-btn1" style="background-color: white; color: #007bff; border: 2px solid white;">Contact Us Today <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                            <a href="/contact" class="header-btn1" style="background-color: white; color: #4E2FDA; border: 2px solid white; padding: 14px 32px; font-size: 16px;">Contact Us Today <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            <a href="/quote" class="header-btn2" style="background-color: transparent; color: white; border: 2px solid white; padding: 14px 32px; font-size: 16px;">Request a Quote <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
